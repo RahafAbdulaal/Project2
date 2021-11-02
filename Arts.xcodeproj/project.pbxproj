@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C03D388827317ED600196A7A /* personalInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03D388727317ED600196A7A /* personalInfoViewController.swift */; };
+		C03D388A273182AB00196A7A /* UpdateAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C03D3889273182AB00196A7A /* UpdateAccountViewController.swift */; };
 		C0DACF092731226700E53F53 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DACF082731226700E53F53 /* AppDelegate.swift */; };
 		C0DACF0B2731226700E53F53 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DACF0A2731226700E53F53 /* SceneDelegate.swift */; };
 		C0DACF0D2731226700E53F53 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DACF0C2731226700E53F53 /* ViewController.swift */; };
@@ -22,6 +24,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C03D388727317ED600196A7A /* personalInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = personalInfoViewController.swift; sourceTree = "<group>"; };
+		C03D3889273182AB00196A7A /* UpdateAccountViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateAccountViewController.swift; sourceTree = "<group>"; };
 		C0DACF052731226700E53F53 /* Arts.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Arts.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0DACF082731226700E53F53 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0DACF0A2731226700E53F53 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -69,7 +73,9 @@
 			isa = PBXGroup;
 			children = (
 				C0DACF082731226700E53F53 /* AppDelegate.swift */,
+				C03D388727317ED600196A7A /* personalInfoViewController.swift */,
 				C0DACF0A2731226700E53F53 /* SceneDelegate.swift */,
+				C03D3889273182AB00196A7A /* UpdateAccountViewController.swift */,
 				C0DACF0C2731226700E53F53 /* ViewController.swift */,
 				C0DACF0E2731226700E53F53 /* Main.storyboard */,
 				C0DACF112731226800E53F53 /* Assets.xcassets */,
@@ -162,9 +168,11 @@
 				C0DACF0D2731226700E53F53 /* ViewController.swift in Sources */,
 				C0DACF092731226700E53F53 /* AppDelegate.swift in Sources */,
 				C0DACF0B2731226700E53F53 /* SceneDelegate.swift in Sources */,
+				C03D388827317ED600196A7A /* personalInfoViewController.swift in Sources */,
 				C0DACF22273128FB00E53F53 /* CanvasTableViewCell.swift in Sources */,
 				C0DACF24273128FB00E53F53 /* CanvasViewController.swift in Sources */,
 				C0DACF23273128FB00E53F53 /* TableViewCellCategorie.swift in Sources */,
+				C03D388A273182AB00196A7A /* UpdateAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
