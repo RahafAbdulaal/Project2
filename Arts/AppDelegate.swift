@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Arts
+//  project2
 //
 //  Created by Rahaf Abdulaal on 27/03/1443 AH.
 //
