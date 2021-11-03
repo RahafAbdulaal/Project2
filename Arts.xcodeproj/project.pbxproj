@@ -21,6 +21,7 @@
 		C0DACF26273128FB00E53F53 /* CanvasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */; };
 		C0DACF27273128FB00E53F53 /* TableViewCellCategorie.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DACF21273128FB00E53F53 /* TableViewCellCategorie.xib */; };
 		C0DD7D5A273277E500DBA63C /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DD7D59273277E500DBA63C /* detailsViewController.swift */; };
+		C0DD7D602733232900DBA63C /* ShoppingCardVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DD7D5F2733232900DBA63C /* ShoppingCardVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,8 @@
 		C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasTableViewCell.xib; sourceTree = "<group>"; };
 		C0DACF21273128FB00E53F53 /* TableViewCellCategorie.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellCategorie.xib; sourceTree = "<group>"; };
 		C0DD7D59273277E500DBA63C /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
+		C0DD7D5F2733232900DBA63C /* ShoppingCardVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingCardVC.swift; sourceTree = "<group>"; };
+		C0DD7D9327334DC600DBA63C /* CartTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CartTableViewCell.swift; path = ../../cartItems/cartItems/CartTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,21 +75,23 @@
 		C0DACF072731226700E53F53 /* Arts */ = {
 			isa = PBXGroup;
 			children = (
+				C0DACF132731226800E53F53 /* LaunchScreen.storyboard */,
+				C0DACF0E2731226700E53F53 /* Main.storyboard */,
 				C0DACF082731226700E53F53 /* AppDelegate.swift */,
-				C0DD7D59273277E500DBA63C /* detailsViewController.swift */,
 				C0DACF0A2731226700E53F53 /* SceneDelegate.swift */,
 				C0DACF0C2731226700E53F53 /* ViewController.swift */,
-				C0DACF0E2731226700E53F53 /* Main.storyboard */,
 				C03D388B2731EF8C00196A7A /* CreditCardVC.swift */,
-				C0DACF112731226800E53F53 /* Assets.xcassets */,
-				C0DACF132731226800E53F53 /* LaunchScreen.storyboard */,
-				C0DACF162731226800E53F53 /* Info.plist */,
-				C0DACF1C273128FA00E53F53 /* CanvasTableViewCell.swift */,
-				C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */,
-				C0DACF1E273128FA00E53F53 /* CanvasViewController.swift */,
+				C0DD7D59273277E500DBA63C /* detailsViewController.swift */,
+				C0DD7D5F2733232900DBA63C /* ShoppingCardVC.swift */,
+				C0DD7D9327334DC600DBA63C /* CartTableViewCell.swift */,
 				C0DACF1F273128FB00E53F53 /* CategorieViewController.swift */,
 				C0DACF1D273128FA00E53F53 /* TableViewCellCategorie.swift */,
+				C0DACF1E273128FA00E53F53 /* CanvasViewController.swift */,
+				C0DACF1C273128FA00E53F53 /* CanvasTableViewCell.swift */,
+				C0DACF112731226800E53F53 /* Assets.xcassets */,
+				C0DACF162731226800E53F53 /* Info.plist */,
 				C0DACF21273128FB00E53F53 /* TableViewCellCategorie.xib */,
+				C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */,
 			);
 			path = Arts;
 			sourceTree = "<group>";
@@ -168,6 +173,7 @@
 				C0DACF0D2731226700E53F53 /* ViewController.swift in Sources */,
 				C0DACF092731226700E53F53 /* AppDelegate.swift in Sources */,
 				C03D388C2731EF8C00196A7A /* CreditCardVC.swift in Sources */,
+				C0DD7D602733232900DBA63C /* ShoppingCardVC.swift in Sources */,
 				C0DACF0B2731226700E53F53 /* SceneDelegate.swift in Sources */,
 				C0DACF22273128FB00E53F53 /* CanvasTableViewCell.swift in Sources */,
 				C0DACF24273128FB00E53F53 /* CanvasViewController.swift in Sources */,
