@@ -20,6 +20,7 @@
 		C0DACF25273128FB00E53F53 /* CategorieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DACF1F273128FB00E53F53 /* CategorieViewController.swift */; };
 		C0DACF26273128FB00E53F53 /* CanvasTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */; };
 		C0DACF27273128FB00E53F53 /* TableViewCellCategorie.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0DACF21273128FB00E53F53 /* TableViewCellCategorie.xib */; };
+		C0DD7D5A273277E500DBA63C /* detailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0DD7D59273277E500DBA63C /* detailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		C0DACF1F273128FB00E53F53 /* CategorieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CategorieViewController.swift; sourceTree = "<group>"; };
 		C0DACF20273128FB00E53F53 /* CanvasTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CanvasTableViewCell.xib; sourceTree = "<group>"; };
 		C0DACF21273128FB00E53F53 /* TableViewCellCategorie.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TableViewCellCategorie.xib; sourceTree = "<group>"; };
+		C0DD7D59273277E500DBA63C /* detailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = detailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				C0DACF082731226700E53F53 /* AppDelegate.swift */,
+				C0DD7D59273277E500DBA63C /* detailsViewController.swift */,
 				C0DACF0A2731226700E53F53 /* SceneDelegate.swift */,
 				C0DACF0C2731226700E53F53 /* ViewController.swift */,
 				C0DACF0E2731226700E53F53 /* Main.storyboard */,
@@ -168,6 +171,7 @@
 				C0DACF0B2731226700E53F53 /* SceneDelegate.swift in Sources */,
 				C0DACF22273128FB00E53F53 /* CanvasTableViewCell.swift in Sources */,
 				C0DACF24273128FB00E53F53 /* CanvasViewController.swift in Sources */,
+				C0DD7D5A273277E500DBA63C /* detailsViewController.swift in Sources */,
 				C0DACF23273128FB00E53F53 /* TableViewCellCategorie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
